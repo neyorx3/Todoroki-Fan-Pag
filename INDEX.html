@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pagina de inicio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/INDEX_03.png','images/INDEX_04.png','images/INDEX_05-.png','images/INDEX_06.png','images/INDEX_07.png')">
+<!-- Save for Web Slices (pagina de inicio.psd) -->
+<table id="Tabla_01" width="1440" height="983" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="7">
+		  <img src="images/INDEX_01.gif" width="1440" height="66" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/INDEX_02.gif" width="697" height="66" alt=""></td>
+		<td>
+			<a href="INDEX.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu','','images/INDEX_03.png',1)"><img src="images/INDEX_03.gif" alt="" width="128" height="66" id="menu"></a></td>
+		<td>
+			<a href="../pagina de figuras/pagina-de-figuras.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('figuras','','images/INDEX_04.png',1)"><img src="images/INDEX_04.gif" alt="" width="145" height="66" id="figuras"></a></td>
+		<td>
+			<a href="../pagina de chibis/pagina de chibis.png" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('chibis','','images/INDEX_05-.png',1)"><img src="images/INDEX_05.png" alt="" width="136" height="66" id="chibis"></a></td>
+		<td>
+			<a href="../pagina de ropa/pagina-de-ropa.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ropa','','images/INDEX_06.png',1)"><img src="images/INDEX_06.gif" alt="" width="114" height="66" id="ropa"></a></td>
+		<td>
+			<a href="../pagina de redes/pagina-de-redes.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('todoroki','','images/INDEX_07.png',1)"><img src="images/INDEX_07.gif" alt="" width="187" height="66" id="todoroki"></a></td>
+		<td>
+			<img src="images/INDEX_08.gif" width="33" height="66" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="7">
+			<img src="images/INDEX_09.png" width="1440" height="866" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>
